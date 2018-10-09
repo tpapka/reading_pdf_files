@@ -21,4 +21,7 @@ def readPDF(pdfFile):
 pdfFile = open("C:\\Users\\Max\\Desktop\\my_pdf_file.pdf", "rb")
 
 pdf_text = readPDF(pdfFile)
+pdfFile.close()
+
 content = re.sub('\n|\x0c', ' ', pdf_text)
+
