@@ -1,3 +1,5 @@
+pip install pdfminer3k
+
 from pdfminer.pdfinterp import PDFResourceManager, process_pdf
 from pdfminer.converter import TextConverter
 from pdfminer.layout import LAParams
